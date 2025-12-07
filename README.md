@@ -7,9 +7,14 @@ This repository contains a Jupyter notebook that serves as a practical example o
 
 This notebook is intentionally designed as a foundational starting point and does not strictly adhere to established best practices as it is meant as a learning opportunity. This repo belongs to a five part course:&nbsp;&nbsp;&nbsp; 🏠&nbsp;[House&nbsp;Price&nbsp;Predictor](https://github.com/bshtmichielsen/house_price_predictor)&nbsp;&nbsp;&nbsp; 🐏&nbsp;[Animal&nbsp;Sound&nbsp;Identifier](https://github.com/bshtmichielsen/animal_sound_identifier)&nbsp; &nbsp;👗&nbsp;[Clothing&nbsp;Sorter](https://github.com/bshtmichielsen/clothing_sorter)&nbsp;&nbsp;&nbsp; 🍎&nbsp;[Fruit&nbsp;Detector](https://github.com/bshtmichielsen/fruit_detector)&nbsp;&nbsp;&nbsp; 💬&nbsp;[Expert&nbsp;Chat](https://github.com/bshtmichielsen/expert_chat)&nbsp; Feel free to learn from the other parts too!
 
-## 🎯 Learning alignments
-The following aspects of machine learning are part of this example:
+## 📚 Preparation
+Please ensure that you are familiar with the following aspects in order to successfully work with this repo and notebook.
+ - You understand the general idea of [feature extraction](https://www.geeksforgeeks.org/machine-learning/what-is-feature-extraction/).
+ - a
+ - b
 
+## 🎯 Learning opportunities
+The following aspects of machine learning are part of this example:
 - Working with data files, in this case audio file
 - Feature extraction using a specialistic library
 - Neural Network building using layers
@@ -17,8 +22,7 @@ The following aspects of machine learning are part of this example:
 - Confidence scores
 
 ## 🤔 Considerations for improvement
-The following is a list of considerations for improvement or for your own project.
-
+This notebook is an example on how to get started, it is open for improvements and enhancements. Feel free to clone my work and use it to study and learn. Things to consider if you want to improve this work:
 - Currently only 13 MFCC features are extracted from librosa, quite likely additional features may be interesting to try or perhaps add.
 - When the model gives a correct prediction with a high confidence score, the model performs better than when it gives a correct prediction but with a low confidence score. We currently have no metric that measures this, as we only look at correct/wrong. Could you add a metric for this?
 - There is no evaluation on whether the model is overfitted, it may very well be.
@@ -26,5 +30,4 @@ The following is a list of considerations for improvement or for your own projec
 
 ## ⭐ Citation & Star
 If you use my work please cite and star ⭐ this repo. Thanks!
-
-Michielsen, Bas S.H.T. (2025) "Animal Sound Identifier" GitHub: https://github.com/bshtmichielsen/animal_sound_identifier
+> Michielsen, Bas S.H.T. (2025) "Animal Sound Identifier" GitHub: https://github.com/bshtmichielsen/animal_sound_identifier
